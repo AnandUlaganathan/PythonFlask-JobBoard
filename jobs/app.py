@@ -5,6 +5,9 @@ PATH='db/jobs.sqllite'
 
 app=Flask(__name__)
 
+
+
+
 def open_connection():
     connection = getattr(g,'_connection',None)
     if connection == None:
